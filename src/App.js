@@ -16,6 +16,7 @@ function App() {
     <body className="Body">
       <Router>
         <NavBar />
+        <Home />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
