@@ -1,0 +1,25 @@
+.ContactDiv {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #2c5f2d;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+p {
+  padding-left: 50px;
+  color: #c0fb6e;
+}
+
+.ContactDiv:hover {
+  background-color: #c0fb6e;
+}
+.ContactDiv:hover > p {
+  color: #2c5f2d;
+}

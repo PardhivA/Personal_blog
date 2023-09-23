@@ -1,0 +1,30 @@
+.NavigationBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color:#01275d;
+    height: 80px;
+    width: 300px;
+    margin: auto;
+    /* position: fixed;
+    transform: translate(200%); */
+    /* left: 40% */
+}
+
+.Links{
+    color: #00FFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    border: 2px solid #00FFFF;
+    border-radius: 10px;
+    margin-right: 5px;
+
+background-color: #01275d;}
+
+.Links:hover{
+    color: #01275d;
+    background-color: #00FFFF;
+}
